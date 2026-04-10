@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "description": "Codex workflows for committing changes, publishing branches, and cleaning stale local branches.",
   "author": {
-    "name": "Local Workspace",
+    "name": "Cenadros",
     "email": "",
-    "url": ""
+    "url": "https://github.com/Cenadros"
   },
-  "homepage": "https://github.com/anthropics/claude-code/tree/main/plugins/commit-commands",
-  "license": "MIT",
+  "homepage": "https://github.com/Cenadros/codex-commit-commands-plugin",
+  "repository": "https://github.com/Cenadros/codex-commit-commands-plugin",
   "keywords": [
     "git",
     "commit",
@@ -21,14 +21,14 @@
     "displayName": "Commit Commands",
     "shortDescription": "Commit, push, PR, and branch cleanup workflows for Codex",
     "longDescription": "Provides Codex skills that mirror the practical workflows of Claude Code's commit commands plugin: create a well-scoped commit, publish a branch and open a draft PR, and clean up local branches whose upstreams are gone.",
-    "developerName": "Local Workspace",
+    "developerName": "Cenadros",
     "category": "Coding",
     "capabilities": [
       "Interactive",
       "Write"
     ],
-    "websiteURL": "https://github.com/anthropics/claude-code/tree/main/plugins/commit-commands",
-    "privacyPolicyURL": "https://github.com",
+    "websiteURL": "https://github.com/Cenadros/codex-commit-commands-plugin",
+    "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
     "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
     "defaultPrompt": [
       "Commit the relevant changes in this repo with a message that matches recent history",
