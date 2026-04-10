@@ -1,0 +1,41 @@
+{
+  "name": "commit-commands",
+  "version": "0.1.0",
+  "description": "Codex workflows for committing changes, publishing branches, and cleaning stale local branches.",
+  "author": {
+    "name": "Local Workspace",
+    "email": "",
+    "url": ""
+  },
+  "homepage": "https://github.com/anthropics/claude-code/tree/main/plugins/commit-commands",
+  "license": "MIT",
+  "keywords": [
+    "git",
+    "commit",
+    "pull-request",
+    "workflow",
+    "github"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Commit Commands",
+    "shortDescription": "Commit, push, PR, and branch cleanup workflows for Codex",
+    "longDescription": "Provides Codex skills that mirror the practical workflows of Claude Code's commit commands plugin: create a well-scoped commit, publish a branch and open a draft PR, and clean up local branches whose upstreams are gone.",
+    "developerName": "Local Workspace",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/anthropics/claude-code/tree/main/plugins/commit-commands",
+    "privacyPolicyURL": "https://github.com",
+    "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+    "defaultPrompt": [
+      "Commit the relevant changes in this repo with a message that matches recent history",
+      "Publish this work: create a branch if needed, commit, push, and open a draft PR",
+      "Clean up local branches whose remote upstreams are gone"
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": []
+  }
+}
